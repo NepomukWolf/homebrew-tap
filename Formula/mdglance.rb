@@ -4,6 +4,7 @@ class Mdglance < Formula
   url "https://static.crates.io/crates/mdglance/mdglance-0.2.0.crate"
   sha256 "d1f426721b6d97b266f5733b71dcd39dd2702196afe24fb15ffff9b06e66d301"
   license "MIT"
+  revision 1
   head "https://github.com/NepomukWolf/mdglance.git", branch: "main"
 
   depends_on "rust" => :build

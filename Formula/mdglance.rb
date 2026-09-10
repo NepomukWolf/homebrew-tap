@@ -7,6 +7,7 @@ class Mdglance < Formula
   head "https://github.com/NepomukWolf/mdglance.git", branch: "main"
 
   depends_on "rust" => :build
+  depends_on :macos
 
   def install
     system "cargo", "install", *std_cargo_args

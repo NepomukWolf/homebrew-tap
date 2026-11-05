@@ -1,10 +1,9 @@
 class Mdglance < Formula
   desc "Keyboard-first Markdown and SVG previewer for terminal workflows"
   homepage "https://github.com/NepomukWolf/mdglance"
-  url "https://static.crates.io/crates/mdglance/mdglance-0.2.0.crate"
-  sha256 "d1f426721b6d97b266f5733b71dcd39dd2702196afe24fb15ffff9b06e66d301"
+  url "https://static.crates.io/crates/mdglance/mdglance-0.3.0.crate"
+  sha256 "4388033b5eff066b90a5cabe0c3416a3bdbcde01eae6be8ebea53d0f206f0add"
   license "MIT"
-  revision 2
   head "https://github.com/NepomukWolf/mdglance.git", branch: "main"
 
   bottle do
